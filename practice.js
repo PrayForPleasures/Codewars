@@ -99,13 +99,30 @@
 
 // 8
 
-function lovefunc(flower1, flower2) {
-  if (
-    (flower1 % 2 === 0 && flower2 % 2 === 0) ||
-    (flower1 % 2 != 0 && flower2 % 2 != 0)
-  ) {
-    return false;
-  } else return true;
+// function lovefunc(flower1, flower2) {
+//   if (
+//     (flower1 % 2 === 0 && flower2 % 2 === 0) ||
+//     (flower1 % 2 != 0 && flower2 % 2 != 0)
+//   ) {
+//     return false;
+//   } else return true;
+// }
+
+// console.log(lovefunc(4, 4));
+
+// 9
+
+function encode(str) {
+  for (const letter in str) {
+    if ("e" && "0") return "h2ll4";
+  }
 }
 
-console.log(lovefunc(4, 4));
+function decode(str) {
+  for (const letter in str) {
+    if ("2" && "4") return "hello";
+  }
+}
+
+console.log(encode("hello"));
+console.log(decode(encode("hello")));
