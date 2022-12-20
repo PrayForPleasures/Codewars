@@ -112,17 +112,64 @@
 
 // 9
 
-function encode(str) {
-  for (const letter in str) {
-    if ("e" && "0") return "h2ll4";
-  }
+// function encode(str) {
+//   for (const letter in str) {
+//     if ("e" && "0") return "h2ll4";
+//   }
+// }
+
+// function decode(str) {
+//   for (const letter in str) {
+//     if ("2" && "4") return "hello";
+//   }
+// }
+
+// console.log(encode("hello"));
+// console.log(decode(encode("hello")));
+
+// const arr = ["a", "e", "i", "o", "u"];
+
+// function encode(str) {
+//   let nstr = str.split("");
+//   let narr = nstr.map((el) => {
+//     let ind = arr.indexOf(el);
+//     return ind !== -1 ? ind + 1 : el;
+//   });
+//   return narr.join("");
+// }
+
+// function decode(str) {
+//   const obj = {
+//     1: "a",
+//     2: "e",
+//     3: "i",
+//     4: "o",
+//     5: "u",
+//   };
+//   let nstr = str.split("");
+//   console.log(nstr);
+//   let narr = nstr.map((el) => {
+//     return isNaN(el) ? el : obj[el];
+//   });
+//   return narr.join("");
+// }
+
+// console.log(encode("hello"));
+// console.log(decode(encode("hello")));
+
+// console.log(isNaN("d"));
+// console.log(isNaN(32));
+// console.log(isNaN("1"));
+
+// 10
+
+let str = "You got this!";
+
+function remChar(str) {
+  let arr = str.split("");
+  arr.pop();
+  arr.shift();
+  return arr.join("");
 }
 
-function decode(str) {
-  for (const letter in str) {
-    if ("2" && "4") return "hello";
-  }
-}
-
-console.log(encode("hello"));
-console.log(decode(encode("hello")));
+console.log(remChar(str));
