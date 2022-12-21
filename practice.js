@@ -163,13 +163,71 @@
 
 // 10
 
-let str = "You got this!";
+// let str = "You got this!";
 
-function remChar(str) {
-  let arr = str.split("");
-  arr.pop();
-  arr.shift();
-  return arr.join("");
-}
+// function remChar(str) {
+//   let arr = str.split("");
+//   arr.pop();
+//   arr.shift();
+//   return arr.join("");
+// }
 
-console.log(remChar(str));
+// console.log(remChar(str));
+
+// 11
+
+// let sheeps = [
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   false,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+// ];
+
+// function countSheeps(arrayOfSheep) {
+//   let nArr = arrayOfSheep.map((el) => {
+//     if (el == true) {
+//       return 1;
+//     } else return 0;
+//   });
+//   return nArr.reduce((acc, value) => acc + value);
+// }
+
+// console.log(countSheeps(sheeps));
+
+// function countSheeps(arr) {
+//   return arr.filter(Boolean).length;
+// }
+
+// console.log(countSheeps(sheeps));
+
+// 12
+
+// let arr = [true, false, false, true, true];
+
+// function bts(arr) {
+//   return arr.map((el) => el.toString()).join(", ");
+// }
+
+// console.log(bts(arr));
+
+// 13
