@@ -289,8 +289,46 @@
 
 // 17
 
-class Kata {
-  static getVolumeOfCuboid(length, width, height) {
-    // your code here
-  }
+// class Kata {
+//   static getVolumeOfCuboid(length, width, height) {
+//     let result = length * width * height;
+//     return result;
+//   }
+// }
+
+// console.log(Kata.getVolumeOfCuboid(7, 2, 3));
+
+// 18
+
+// function boolToWord(bool) {
+//   if (bool == true) {
+//     return "Yes";
+//   } else return "No";
+// }
+
+// console.log(boolToWord(false));
+
+// 19
+
+// function evenOrOdd(number) {
+//   if (number % 2 == 0) {
+//     return "Even";
+//   } else return "Odd";
+// }
+
+// console.log(evenOrOdd(1));
+
+// 20
+
+let str1 = "1 год";
+let str2 = "52 лет";
+
+function getAge(inputString) {
+  let int = +inputString.slice(0, 2);
+  return int;
 }
+
+console.log(getAge(str1));
+console.log(getAge(str2));
+
+// 21
