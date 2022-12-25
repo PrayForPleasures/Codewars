@@ -246,9 +246,51 @@
 
 // 14
 
-function pod(sp) {
-  let res = sp * 27.78;
-  return Math.floor(res);
-}
+// function pod(sp) {
+//   let res = sp * 27.78;
+//   return Math.floor(res);
+// }
 
-console.log(pod(1));
+// console.log(pod(1));
+
+// 15
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
+
+// function countPosSumNeg(arr) {
+//   let newArr = [];
+//   let count = 0;
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > 0) {
+//       count += 1;
+//     }
+//     if (arr[i] < 0) {
+//       sum += arr[i];
+//     }
+//   }
+//   newArr.push(count);
+//   newArr.push(sum);
+
+//   return newArr;
+// }
+
+// console.log(countPosSumNeg(arr));
+
+// 16
+
+// let str = "Hi, everybody!Glad to see you in our school!";
+
+// function noSpace(x) {
+//   return x.replace(/ /g, "");
+// }
+
+// console.log(noSpace(str));
+
+// 17
+
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    // your code here
+  }
+}
