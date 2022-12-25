@@ -231,3 +231,24 @@
 // console.log(bts(arr));
 
 // 13
+
+// const arr = [1, 2, 3, 4, 5, 7, 8, 9, 0, 1234, 1235];
+
+// function fstNonCon(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== arr[i + 1] - 1) {
+//       console.log(arr[i]);
+//     }
+//   }
+// }
+
+// fstNonCon(arr);
+
+// 14
+
+function pod(sp) {
+  let res = sp * 27.78;
+  return Math.floor(res);
+}
+
+console.log(pod(1));
