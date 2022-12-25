@@ -320,15 +320,25 @@
 
 // 20
 
-let str1 = "1 год";
-let str2 = "52 лет";
+// let str1 = "1 год";
+// let str2 = "52 лет";
 
-function getAge(inputString) {
-  let int = +inputString.slice(0, 2);
-  return int;
-}
+// function getAge(inputString) {
+//   let int = +inputString.slice(0, 2);
+//   return int;
+// }
 
-console.log(getAge(str1));
-console.log(getAge(str2));
+// console.log(getAge(str1));
+// console.log(getAge(str2));
 
 // 21
+
+function checkForFactor(base, factor) {
+  if (base % factor == 0) {
+    return true;
+  } else return false;
+}
+
+console.log(checkForFactor(10, 2));
+console.log(checkForFactor(10, 3));
+console.log(checkForFactor(10, 100));
