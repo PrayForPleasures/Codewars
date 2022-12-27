@@ -333,12 +333,26 @@
 
 // 21
 
-function checkForFactor(base, factor) {
-  if (base % factor == 0) {
-    return true;
-  } else return false;
+// function checkForFactor(base, factor) {
+//   if (base % factor == 0) {
+//     return true;
+//   } else return false;
+// }
+
+// console.log(checkForFactor(10, 2));
+// console.log(checkForFactor(10, 3));
+// console.log(checkForFactor(10, 100));
+
+// 22
+
+let str1 = "L0ND0N";
+let str2 = "51NGAP0RE";
+let str3 = "BUDAPE5T";
+
+function correct(string) {
+  return string.replace(/0/g, "O").replace(/5/g, "S").replace(/1/g, "I");
 }
 
-console.log(checkForFactor(10, 2));
-console.log(checkForFactor(10, 3));
-console.log(checkForFactor(10, 100));
+console.log(correct(str1));
+console.log(correct(str2));
+console.log(correct(str3));
