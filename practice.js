@@ -345,14 +345,29 @@
 
 // 22
 
-let str1 = "L0ND0N";
-let str2 = "51NGAP0RE";
-let str3 = "BUDAPE5T";
+// let str1 = "L0ND0N";
+// let str2 = "51NGAP0RE";
+// let str3 = "BUDAPE5T";
 
-function correct(string) {
-  return string.replace(/0/g, "O").replace(/5/g, "S").replace(/1/g, "I");
+// function correct(string) {
+//   return string.replace(/0/g, "O").replace(/5/g, "S").replace(/1/g, "I");
+// }
+
+// console.log(correct(str1));
+// console.log(correct(str2));
+// console.log(correct(str3));
+
+// 23
+
+function digitize(n) {
+  let res = n
+    .toString()
+    .split("")
+    .map((n) => Number(n));
+
+  return res;
 }
 
-console.log(correct(str1));
-console.log(correct(str2));
-console.log(correct(str3));
+console.log(digitize(23));
+console.log(digitize(0));
+console.log(digitize(7337532));
